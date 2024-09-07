@@ -25,11 +25,3 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/prezt
 local AimbotTab = Library:CreateTab("By Somedude_r", "SuccotashWare", true)
 
 local AimbotTab = Library:CreateTab("AimlockTab", "Lock On Homeless Ppl", true)
-
-AimbotTab:CreateToggle("Enable Aimlock", function(arg) 
-    if arg then
-        print("Aimlock is now : Enabled")
-    else
-        print("Aimlock is now : Disabled")
-    end
-end)
