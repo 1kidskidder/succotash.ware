@@ -23,4 +23,12 @@ _G.CustomTheme = {
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/preztel/AzureLibrary/master/uilib.lua", true))()
 local AimbotTab = Library:CreateTab("By Somedude_r", "SuccotashWare", true)
 
-local AimbotTab = Library:CreateTab("Visuals", "EspNStuff", true) 
+local AimbotTab = Library:CreateTab("Aimlock", "This is where you toggle the Aimlock")
+
+AimbotTab:CreateToggle("Enable Aimbot", function(arg) 
+    if arg then
+        print("Aimbot is now : Enabled")
+    else
+        print("Aimbot is now : Disabled")
+    end
+end)
