@@ -23,5 +23,3 @@ _G.CustomTheme = {
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/preztel/AzureLibrary/master/uilib.lua", true))()
 
 local AimbotTab = Library:CreateTab("By Somedude_r", "SuccotashWare", true)
-
-local AimbotTab = Library:CreateTab("AimlockTab", "Lock On Homeless Ppl", true)
