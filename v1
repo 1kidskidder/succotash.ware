@@ -32,3 +32,7 @@ AimbotTab:CreateToggle("Enable silent&camlock", function(arg)loadstring(game:Htt
         print("Aimbot is now : Disabled")
     end
 end)
+
+AimbotTab:CreateButton("Resolver", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/v4/main/resolver",true))()
+    print("Inf Jump is now permanently on.")
+end)
