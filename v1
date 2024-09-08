@@ -23,7 +23,7 @@ _G.CustomTheme = {
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/preztel/AzureLibrary/master/uilib.lua", true))()
 local AimbotTab = Library:CreateTab("By Somedude_r", "SuccotashWare", true)
 
-local AimbotTab = Library:CreateTab("Aimlock", "This is where you toggle the Aimlock")
+local AimbotTab = Library:CreateTab("Main", "This is where you toggle the Aimlock")
 
 AimbotTab:CreateToggle("Enable silent&camlock", function(arg)loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/buttons/main/full",true))()
     if arg then
@@ -38,5 +38,9 @@ AimbotTab:CreateButton("Resolver", function()loadstring(game:HttpGet("https://ra
 end)
 
 AimbotTab:CreateButton("Esp", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/starvast/main/espv2",true))()
+    print("Inf Jump is now permanently on.")
+end)
+
+AimbotTab:CreateButton("Anti aimview", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/v4/main/antiaimview",true))()
     print("Inf Jump is now permanently on.")
 end)
